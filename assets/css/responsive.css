@@ -1,0 +1,664 @@
+@media (max-width:1399px) {
+    .expertimages img {
+        width: 100%;
+    }
+
+    .expertTxt h3 {
+        padding-right: 0;
+    }
+
+    .ExpertLeft {
+        padding: 46px 60px 20px 40px;
+    }
+
+    .HighlyExperienced {
+        right: 29%;
+    }
+
+
+    .RightExpertAssistance {
+        padding-left: 80px !important;
+    }
+
+    .expertTxt h3 {
+        padding-right: 0;
+        padding-top: 67px;
+    }
+}
+
+
+@media (max-width:1199px) {
+    .offcanvas-body {
+        max-width: 606px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        padding-top: 8px;
+    }
+
+    .topbar,
+    .nav-bar {
+        padding-left: 20px !important;
+    }
+
+    .banner-content {
+        /* transform: translate(-35%, -50%); */
+    }
+
+    .ExpertLeft h3 {
+        font-size: 36px;
+        line-height: 39.92px;
+    }
+
+    .ExpertLeft ol li {
+        font-size: 20px;
+        line-height: 28.24px;
+
+    }
+
+    .expertTxt h3 {
+        font-size: 36px;
+        line-height: 41.92px;
+    }
+
+    .testimonialsCard {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .ExpertAssistance {
+        padding: 80px 0;
+        position: relative;
+    }
+
+    .HighlyExperienced {
+        right: 22%;
+    }
+
+    .ExpertLeft {
+        padding: 0;
+    }
+
+    .callTxt h2 {
+        font-size: 35px;
+        line-height: 36.92px;
+    }
+
+    .callTxt {
+        padding-top: 20px;
+    }
+
+    .callleft::after {
+        left: 35%;
+    }
+}
+
+@media (max-width:991px) {
+    .offcanvas-header {
+        background-color: var(--blue-color);
+    }
+.topbar{
+    display: none;
+}
+    .navbar-expand-lg .navbar-nav {
+        gap: 1px;
+        padding-top: 8px;
+        flex-direction: column;
+    }
+    .navbarBtn{
+        display: none;
+    }
+    .navbarBtnphone
+    {
+        display: block;
+        margin-top: 20px;
+    }
+    .nav-item{
+        border-bottom: 1px solid ;
+    }
+
+    .expertimages img {
+        width: 100%;
+    }
+
+    .logo img {
+        padding: 0;
+        position: relative;
+        top: 5px;
+    }
+
+    .sidebar {
+        text-align: end !important;
+    }
+
+    .topsection {
+        padding: 20px 0;
+    }
+
+    .hunberger {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .nav-link {
+        text-align: left;
+    }
+
+    .offcanvas-title img {
+        max-width: 100px;
+    }
+
+
+    .banner-content p {
+        font-size: 18px;
+        line-height: 24.05px;
+        padding-top: 5px;
+    }
+
+    .banner-content h1 {
+        font-size: 36px;
+        line-height: 38.48px;
+    }
+
+    .bannerBtn a {
+        padding: 8px 19px;
+        font-size: 14px;
+        line-height: 17.16px;
+    }
+
+    .header-carousel .owl-dots .owl-dot span {
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .header-carousel .owl-dots .owl-dot.active span {
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .header-carousel .owl-dots,
+    .header-carousel .owl-nav {
+        position: absolute;
+        bottom: 18px;
+        z-index: 10;
+        left: 45%;
+    }
+
+    .topsection {
+        padding: 10px 0;
+    }
+
+    .banner-item {
+        height: 400px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        border-right: unset !important;
+    }
+
+    .SustainableFuture {
+        padding: 30px 0;
+    }
+
+    .ExpertLeft h3 {
+        max-width: unset;
+    }
+
+    .SustainableContents h2,
+    .expertTxt h3,
+    .ExpertLeft h3,
+    .MissionSection h3,
+    .headingService,
+    .EnergyText,
+    .testimonialsTop h2 {
+        font-size: 28px;
+        line-height: 32.32px;
+    }
+
+    .headingService {
+        padding-bottom: 20px;
+    }
+
+    .SustainableContents p {
+        font-size: 18px;
+        line-height: 24.24px;
+        padding-top: 10px;
+    }
+
+    .RightExpertAssistance {
+        background-color: rgba(34, 42, 65, 1);
+        padding: 30px !important;
+        margin-top: 10px;
+    }
+
+    .expertTxt h3 {
+        padding-top: 0;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .ExpertLeft ol li,
+    .MissionSection p {
+        font-size: 18px;
+        line-height: 26.24px;
+    }
+
+    .ExpertAssistance {
+        padding: 60px 0;
+    }
+
+    .iconExpertleft {
+        text-align: center;
+    }
+
+    .expertTxt {
+        padding: 0 !important;
+        margin-top: 100px;
+    }
+
+    .expertTxt h3 {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .MissionSection img {
+        height: 400px;
+    }
+
+    .MissionSection p {
+        padding: 6px 0;
+    }
+
+    .expert-section {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .domainsTxt {
+        padding-bottom: unset;
+        padding-top: 100px;
+    }
+
+    .ExpertLeft2 {
+        margin-top: 100px !important;
+    }
+
+    .iconExpert {
+        left: 10%;
+        top: 7%;
+    }
+
+    .HighlyExperienced {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, 88%);
+        bottom: unset;
+        padding: 30px 30px 20px 30px;
+    }
+
+    .HighlyExperienced p {
+        text-align: left;
+    }
+
+    .expertRight,
+    .servicetextright {
+        padding-left: unset;
+    }
+
+    .imghilhligh {
+        padding-top: 30px;
+        height: 500px;
+    }
+
+    .OurServices-Section {
+        padding: 0px 0px 30px 0px;
+    }
+
+    .OurServicesleft {
+        width: 100% !important;
+    }
+
+    .OurServicesImg {
+        max-width: unset;
+        height: auto;
+    }
+
+    .HighlightingTxt h2 {
+        padding-top: 20px;
+    }
+
+    .callTxt h2 {
+        font-size: 27px;
+        line-height: 28.92px;
+    }
+
+    .qualificationSection {
+        padding: 30px 0;
+    }
+
+    .footer-top {
+        text-align: center;
+    }
+
+    .newsletter-input {
+        justify-content: center;
+        max-width: 340px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .footer-top h5 {
+        padding-top: 35px;
+    }
+
+    .qualificationSection .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .qualificationSection .col-lg-4 {
+        width: 48%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .qualificationSection .col-lg-4:nth-child(3) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 26px;
+    }
+
+    .contactusSection {
+        padding-top: 30px;
+    }
+
+    .contactusImg img {
+        height: 400px;
+    }
+
+    .formBox {
+        max-width: 444px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .submit-btn {
+        width: 100%;
+        max-width: 100% !important;
+    }
+
+    .callLeft2 {
+        display: block;
+        height: 90px;
+    }
+
+    .callLeft1 {
+        /* display: none; */
+    }
+
+    .callTxt h2 {
+        font-size: 24px;
+        line-height: 19.92px;
+    }
+
+    .callUs.col-7 {
+        width: 33% !important;
+    }
+
+    .contactus-section {
+        padding: 0;
+    }
+
+    .callTxt {
+        padding-top: 10px;
+    }
+
+    .callTxt h2 {
+        margin: 0;
+    }
+
+    .HighlyExperienced {
+        right: 21%;
+        top: 71%;
+    }
+
+    .callleft::after {
+        width: 335px;
+    }
+}
+
+@media (max-width:768px) {
+    .banner-item {
+        height: 350px;
+    }
+
+    .logo {
+        padding: 0 !important;
+    }
+
+    .topsection {
+        padding-left: 10px;
+    }
+
+    .callleft::after {
+        width: 250px;
+    }
+
+    /* .qualification-item {
+        height: 100%;
+    } */
+    .HighlyExperienced {
+        right: 8%;
+        top: 71%;
+    }
+
+    .MissionSection p {
+        padding: 0px 0;
+    }
+
+    .MissionSection img {
+        height: 350px;
+    }
+
+    .MissionSection p {
+        font-size: 18px;
+        line-height: 22.24px;
+
+    }
+
+    .MissionContent {
+        left: 36%;
+        transform: translate(-27%, -50%);
+    }
+
+    .imghilhligh {
+        height: 350px;
+    }
+
+    .custom-prev-icon {
+        left: 0;
+    }
+
+    .qualificationSection .row {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .qualificationSection .col-lg-4 {
+        width: 100%;
+    }
+
+    .iconExpert {
+        left: -5%;
+        top: 7%;
+    }
+
+    .custom-prev-icon,
+    .custom-next-icon {
+        display: none;
+    }
+}
+
+@media (max-width:576px) {
+    .banner-content p {
+        font-size: 16px;
+        line-height: 19.05px;
+        padding-top: 0px;
+    }
+
+    .iconExpert {
+        display: none;
+    }
+
+    .banner-content h1,
+    .MissionSection h3,
+    .MissionSection h3 {
+        font-size: 28px;
+        line-height: 28.48px;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+        line-height: 18.05px;
+        padding-top: 0px;
+    }
+
+    .banner-item {
+        height: 300px;
+    }
+
+    .callleft::after {
+        width: 200px;
+    }
+
+    .bannerBtn2 {
+        padding-top: 10px;
+    }
+
+    .hunberger {
+        font-size: 25px;
+        padding-top: 6px;
+    }
+
+    .testimonialsCard {
+        padding: 30px 30px 30px 40px;
+    }
+
+    .contactusImg img {
+        height: 350px;
+    }
+
+    .footer-links ul li a,
+    .footer-links ul li a {
+        padding-top: 0;
+    }
+
+    .ExpertAssistance {
+        padding: 30px 0;
+    }
+
+    .ExpertLeft2 {
+        margin-top: 71px !important;
+    }
+
+    .OurServices-Section {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .banner-content {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width:480px) {
+    .banner-content h1 {
+        font-size: 24px;
+        line-height: 26.48px;
+    }
+
+    .SustainableContents h2,
+    .expertTxt h3,
+    .ExpertLeft h3,
+    .RenewabletxtContainer strong,
+    .HighlightingTxt h2,
+    .EnergyText,
+    .headingService,
+    .testimonialsTop h2 {
+        font-size: 24px;
+        line-height: 28.32px;
+    }
+
+    .HighlyExperienced h2,
+    .Renewabletxt p,
+    .ConstructionTxt,
+    .HighlightingTxt p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .callleft::after {
+        width: 150px;
+        bottom: -33px;
+    }
+
+    .ExpertLeft ol li {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .RenewabletxtContainer {
+        gap: 10px;
+    }
+
+    .ConstructionTxt {
+        padding-top: 10px;
+    }
+
+    .headingService {
+        padding-bottom: 10px;
+    }
+
+    .MissionSection p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .expertTxt h3 {
+        padding: 0px 0px 10px 0px;
+    }
+
+    .MissionContent {
+        left: 35%;
+        transform: translate(-27%, -50%);
+    }
+
+    .HighlyExperienced {
+        padding: 10px 20px 5px 20px;
+        transform: translate(-50%, 120%);
+    }
+
+    .topsection {
+        padding: 5px 0;
+        padding-left: 5px;
+    }
+
+    .hunberger {
+        font-size: 19px;
+        padding-top: 6px;
+    }
+
+    .logo img {
+        top: 0;
+    }
+
+    .HighlyExperienced {
+        right: 0;
+        top: 75%;
+    }
+}
