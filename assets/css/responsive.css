@@ -94,27 +94,51 @@
 }
 
 @media (max-width:991px) {
+    .navbar::before {
+        width: 200px;
+    }
+
+    .banner-content {
+        position: absolute;
+        top: 50%;
+    }
+
     .offcanvas-header {
         background-color: var(--blue-color);
     }
-.topbar{
-    display: none;
-}
+
+    .info-section {
+        background-color: #FFFFFF;
+        padding: 40px 0;
+        box-shadow: 0px 3px 224px 0px #00000026;
+        position: relative;
+        bottom: 0px;
+        top: 40px;
+        z-index: 99;
+        border-radius: 15px;
+    }
+
+    .topbar {
+        display: none;
+    }
+
     .navbar-expand-lg .navbar-nav {
         gap: 1px;
         padding-top: 8px;
         flex-direction: column;
     }
-    .navbarBtn{
+
+    .navbarBtn {
         display: none;
     }
-    .navbarBtnphone
-    {
+
+    .navbarBtnphone {
         display: block;
         margin-top: 20px;
     }
-    .nav-item{
-        border-bottom: 1px solid ;
+
+    .nav-item {
+        border-bottom: 1px solid;
     }
 
     .expertimages img {
@@ -189,7 +213,7 @@
     }
 
     .banner-item {
-        height: 400px;
+        /* height: 400px; */
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -433,8 +457,48 @@
 }
 
 @media (max-width:768px) {
+    .about-section {
+        text-align: center;
+    }
+
+    .shape-img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+    .about-person {
+        position: unset;
+    }.gallery-carousel .gallery-img-container .imgl{
+        height: 500px !important;
+    }
+    .google-map-card{
+        height: 400px;
+    }
+
+    .feature {
+        text-align: left;
+    }
+
+    .testimonial-img-lg {
+        width: 100%;
+    }
+
+    .navbar::before {
+        width: 150px;
+    }
+
+    .form-container {
+        padding: 0px 10px;
+    }
+
+    .contact-form .input-group {
+        flex-direction: column;
+    }
+
     .banner-item {
-        height: 350px;
+        /* height: 350px; */
     }
 
     .logo {
@@ -530,7 +594,7 @@
     }
 
     .banner-item {
-        height: 300px;
+        height: 600px;
     }
 
     .callleft::after {
