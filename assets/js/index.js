@@ -46,7 +46,7 @@ $(document).ready(function () {
         navText: ['<img src="./assets/images/PreIcon.png" alt="Previous" class="custom-prev-icon">',
             '<img src="./assets/images/PreIcon.png" alt="next" class="custom-next-icon">'],
         dots: true,
-        autoplay:true,
+        autoplay: true,
         autoplayTimeout: 3000,
         responsive: {
             0: {
@@ -96,19 +96,29 @@ $(document).ready(function () {
 });
 
 
- $(document).ready(function(){
+$(document).ready(function () {
     $(".gallery-carousel").owlCarousel({
-      loop: true,
-      margin: 20,
-      nav: false,
-      dots: false,
-      responsive: {
-        0: { items: 1 },
-        576: { items: 1 },
-        768: { items: 2 },
-        992: { items: 4 }
-      }
+        loop: true,
+        margin: 20,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            992: {
+                items: 5,
+                autoWidth: true
+            }
+        }
+
     });
-  });
+});
 
 
