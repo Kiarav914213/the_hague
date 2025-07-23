@@ -32,6 +32,10 @@
         max-width: 606px;
     }
 
+    .testimonial-img-lgg {
+        width: 440px;
+    }
+
     .navbar-expand-lg .navbar-nav {
         padding-top: 8px;
     }
@@ -91,11 +95,18 @@
     .callleft::after {
         left: 35%;
     }
+    
+    .offcanvas-header .btn-close{
+        /* display: none; */
+        font-size: 28px;
+        --bs-btn-close-bg:var(--bs-btn-close-bg);
+        color: #fff !important;
+    }
 }
 
 @media (max-width:991px) {
     .navbar::before {
-        width: 200px;
+        width: 230px;
     }
 
     .banner-content {
@@ -116,6 +127,49 @@
         top: 40px;
         z-index: 99;
         border-radius: 15px;
+        margin: 40px 0;
+    }
+
+    .about-section {
+        padding: 120px 0;
+    }
+
+    .about-content {
+        padding-top: 60px;
+    }
+
+    .gallery-carousel .gallery-img-container .imgl {
+        height: 479px !important;
+        width: 250px;
+    }
+
+    .gallery-carousel,
+    .testimonial-section {
+        padding: 60px 0px;
+    }
+
+    .airpot .tran1 {
+        width: 300px;
+        height: 400px;
+    }
+
+    .airpot .tran2 {
+        width: 200px;
+        height: 300px;
+    }
+
+    .asec {
+        padding-top: 60px;
+    }
+
+    .airpot {
+        background: #E9F6F9;
+        padding: 140px 0 60px 0;
+    }
+
+    .gallery-carousel .gallery-img-container .imgs {
+        height: 343px !important;
+        width: 229px;
     }
 
     .topbar {
@@ -180,8 +234,8 @@
     }
 
     .banner-content h1 {
-        font-size: 36px;
-        line-height: 38.48px;
+        font-size: 56px;
+        line-height: 68.48px;
     }
 
     .bannerBtn a {
@@ -220,6 +274,33 @@
         justify-content: center;
     }
 
+    .testimonial-img-lgg {
+        width: 340px;
+        height: 400px;
+    }
+
+    .testimonial-img {
+        height: 304px !important;
+        max-width: 200px !important;
+    }
+
+    .form-container {
+        padding: 50px 0px 30px 0px;
+    }
+
+    .map-logo {
+        width: 101px;
+        top: 54px;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 550px;
+    }
+
+    .google-map-card {
+        height: 500px;
+    }
+
     .logo {
         border-right: unset !important;
     }
@@ -230,17 +311,6 @@
 
     .ExpertLeft h3 {
         max-width: unset;
-    }
-
-    .SustainableContents h2,
-    .expertTxt h3,
-    .ExpertLeft h3,
-    .MissionSection h3,
-    .headingService,
-    .EnergyText,
-    .testimonialsTop h2 {
-        font-size: 28px;
-        line-height: 32.32px;
     }
 
     .headingService {
@@ -457,32 +527,87 @@
 }
 
 @media (max-width:768px) {
+    .owl-carousel .owl-item img {
+        height: 750px;
+    }
+
+    .search-option .subtitle {
+        text-align: center;
+    }
+
+    .search-box {
+        text-align: center;
+    }
+
+    .search-option div {
+        justify-content: center;
+    }
+
     .about-section {
         text-align: center;
     }
 
     .shape-img {
         width: 200px;
-        height: 200px;
         object-fit: cover;
         margin: 0 auto;
     }
 
+    .description,
+    .testimonial-img {
+        margin: 0 auto;
+    }
+
+    .features {
+        margin-top: 30px;
+    }
+
     .about-person {
         position: unset;
-    }.gallery-carousel .gallery-img-container .imgl{
+    }
+
+    .gallery-carousel .gallery-img-container .imgl {
         height: 500px !important;
     }
-    .google-map-card{
+
+    .google-map-card {
         height: 400px;
     }
 
     .feature {
         text-align: left;
+        justify-content: center;
     }
 
-    .testimonial-img-lg {
+    .person-bg img {
+        padding-top: 50px;
+    }
+
+    .about-section {
+        padding: 120px 0 60px 0px;
+    }
+
+    .testimonial-img-lg,
+    .card-img img {
         width: 100%;
+    }
+
+    .asec {
+        padding-top: 60px;
+        padding-left: 15px;
+    }
+
+    .asec p {
+        padding-bottom: 20px !important;
+    }
+
+    .testimonial-section .row {
+        padding: 0px !important;
+        gap: 20px;
+    }
+
+    .services-section {
+        padding: 40px 0;
     }
 
     .navbar::before {
@@ -503,6 +628,10 @@
 
     .logo {
         padding: 0 !important;
+    }
+
+    .airpot {
+        text-align: center;
     }
 
     .topsection {
@@ -567,9 +696,36 @@
     .custom-next-icon {
         display: none;
     }
+
+    .title {
+        font-size: 32px;
+        line-height: 43px;
+
+    }
+
+    .subscribe-section h2 {
+        font-size: 30px;
+        line-height: 46px;
+
+    }
+
+    .subscribe-section {
+        padding: 60px 20px;
+
+    }
 }
 
 @media (max-width:576px) {
+    .airpot .tran1 {
+        width: 300px;
+        height: 400px;
+    }
+
+    .airpot .col-lg-7 {
+        display: flex;
+        flex-direction: column;
+    }
+
     .banner-content p {
         font-size: 16px;
         line-height: 19.05px;
@@ -641,40 +797,152 @@
 }
 
 @media (max-width:480px) {
+
+    .header-carousel .owl-dots,
+    .header-carousel .owl-nav {
+        position: absolute;
+        bottom: 18px;
+        z-index: 10;
+        left: 40%;
+    }
+
+    .info-item h3 {
+        font-size: 20px;
+        line-height: 15px;
+    }
+
+    .search-option .title {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .headerBtn {
+        background-color: var(--brand-color);
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+
+    .subscribe-form button {
+        padding: 10px 25px
+    }
+
+    .subscribe-form input {
+        padding: 0 0 0 10px !important;
+    }
+
+    .navbar::before {
+        width: 124px;
+    }
+
+    .subscribe-section h2 {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        background-color: #043b5c;
+        color: white;
+        padding: 20px 0px 5px 0px;
+    }
+
+    .title,
+    .subscribe-section h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .gallery-carousel .gallery-img-container .imgl {
+        height: 300px !important;
+    }
+
+    .testimonial-section {
+        padding-bottom: 0 !important;
+    }
+
+    .contact-section {
+        position: relative;
+        padding: 30px 10px;
+    }
+
+    .card-img {
+        height: 201px;
+    }
+
+    .google-map-card {
+        height: 300px;
+    }
+
+    .map-logo {
+        width: 50px;
+        top: 54px;
+    }
+
+    .gallery-carousel .owl-stage {
+        padding-bottom: 0px !important;
+        gap: 0px;
+    }
+
+    .gallery-carousel,
+    .testimonial-section {
+        padding: 30px 0px;
+    }
+
+    .card-content h4,
+    .price,
+    .testimonial-section h6 {
+        font-size: 15px;
+        line-height: 27px;
+
+    }
+
+    .testimonial-img-lgg {
+        width: 250px;
+        height: 300px;
+    }
+
+    .testimonial-img {
+        height: 204px !important;
+        max-width: 150px !important;
+    }
+
+    .star-rating {
+        color: #F4B46A;
+        font-size: 1.8rem;
+        padding-top: 0px;
+        margin: 0 !important;
+    }
+
+    .testimonial-section p {
+        margin: 0;
+    }
+
+    .card-footer {
+        margin-top: 0;
+    }
+
+    .search-option i {
+        color: #0055a5;
+        font-size: 11px;
+    }
+
+    .info-item {
+        flex: 1;
+        padding: 8px;
+
+    }
+
+    .testimonial- .info-box {
+        gap: 0;
+    }
+
+    .info-section {
+        margin: 0px 0px 40px 0px;
+    }
+
     .banner-content h1 {
         font-size: 24px;
-        line-height: 26.48px;
+        line-height: 32px;
     }
 
-    .SustainableContents h2,
-    .expertTxt h3,
-    .ExpertLeft h3,
-    .RenewabletxtContainer strong,
-    .HighlightingTxt h2,
-    .EnergyText,
-    .headingService,
-    .testimonialsTop h2 {
-        font-size: 24px;
-        line-height: 28.32px;
-    }
-
-    .HighlyExperienced h2,
-    .Renewabletxt p,
-    .ConstructionTxt,
-    .HighlightingTxt p {
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    .callleft::after {
-        width: 150px;
-        bottom: -33px;
-    }
-
-    .ExpertLeft ol li {
-        font-size: 16px;
-        line-height: 22px;
-    }
 
     .RenewabletxtContainer {
         gap: 10px;
@@ -724,5 +992,10 @@
     .HighlyExperienced {
         right: 0;
         top: 75%;
+    }
+
+    .banner-content {
+        position: absolute;
+        top: 45%;
     }
 }
