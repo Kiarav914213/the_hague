@@ -1387,6 +1387,11 @@
     position: relative;
 }
 
+.form-field input::placeholder,
+.form-field textarea::placeholder {
+    padding-left: 20px;
+}
+
 .form-field input,
 .form-field textarea {
     width: 100%;
@@ -1398,7 +1403,7 @@
     border-bottom: 5px solid #1CA8CB;
     position: relative;
     z-index: 999;
-    text-align: right;
+    text-align: left;
 }
 
 .form-field textarea {
@@ -1409,10 +1414,11 @@
 .form-field .icon {
     position: absolute;
     top: 50%;
-    right: 12px;
+    left: 10px;
     transform: translateY(-50%);
     color: #1CA8CB;
     z-index: 999;
+    margin-right: 20px;
 }
 
 .message_icon {
@@ -1509,27 +1515,34 @@
 
     background-color: rgba(255, 255, 255, 0.3);
 }
+
 .map-logo {
-  position: relative;
-  animation: floatUpDownPause 4s ease-in-out infinite;
+    position: relative;
+    animation: floatUpDownPause 4s ease-in-out infinite;
 }
 
 @keyframes floatUpDownPause {
-  0% {
-    transform: translateY(0);
-  }
-  20% {
-    transform: translateY(0); /* Pause at top */
-  }
-  50% {
-    transform: translateY(50px);
-  }
-  70% {
-    transform: translateY(50px); /* Pause at bottom */
-  }
-  100% {
-    transform: translateY(0);
-  }
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(0);
+        /* Pause at top */
+    }
+
+    50% {
+        transform: translateY(50px);
+    }
+
+    70% {
+        transform: translateY(50px);
+        /* Pause at bottom */
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .map-logo {
