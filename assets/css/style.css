@@ -917,7 +917,7 @@
 
 .navbar-nav {
     gap: 10px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .card-img img {
@@ -1484,7 +1484,7 @@
 
 /* ===================== map section =============== */
 .google-map-card {
-    background-image: url('../images/map.png');
+    background-image: url('../images/map2.jpeg');
     background-size: cover;
     background-position: center;
     height: 700px;
