@@ -1487,7 +1487,7 @@
     background-image: url('../images/map2.jpeg');
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 800px;
     border-radius: 12px;
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -1532,11 +1532,11 @@
 }
 
 .map-logo {
-    width: 201px;
+    width: 181px;
     height: auto;
     transition: transform 0.3s ease;
     position: relative;
-    top: 54px;
+    top: 84px;
 }
 
 
