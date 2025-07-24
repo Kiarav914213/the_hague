@@ -122,3 +122,28 @@ $(document).ready(function () {
 });
 
 
+$(".feedbackcarousel").owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: false,
+    dots: true,
+    // autoplay: true,
+    autoplayTimeout: 3000,
+    responsive: {
+        0: {
+            items: 1,
+        },
+         576: {
+            items: 2,
+        },
+        768: {
+            items: 2,
+        },
+        1000: {
+            items: 3,
+        },
+        1368: {
+            items: 4,
+        }
+    },
+});

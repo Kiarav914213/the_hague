@@ -205,9 +205,11 @@
     .nav-item {
         border-bottom: 1px solid;
     }
-  .navbar::before {
+
+    .navbar::before {
         width: 250px;
     }
+
     .expertimages img {
         width: 100%;
     }
@@ -537,11 +539,33 @@
     .callleft::after {
         width: 335px;
     }
+
+    .cta-two__img-and-content {
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cta-two__btn-box {
+        justify-content: center;
+    }
 }
 
 @media (max-width:768px) {
     .owl-carousel .owl-item img {
         height: 750px;
+    }
+
+    .cta-two__inner {
+        padding: 30px 33px 30px;
+        padding-right: 33px;
+    }
+
+    .cta-two__title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
     }
 
     .search-option .subtitle {
@@ -619,11 +643,12 @@
         gap: 20px;
     }
 
-    .services-section {
+    .services-section,
+    .about3 {
         padding: 40px 0;
     }
 
-   
+
 
     .form-container {
         padding: 0px 10px;
@@ -720,6 +745,12 @@
 
     }
 
+    .flip-card-face p {
+        font-size: 14px;
+        line-height: 17px;
+
+    }
+
     .subscribe-section {
         padding: 60px 20px;
 
@@ -737,7 +768,12 @@
         flex-direction: column;
     }
 
-    .banner-content p {
+    .cta-two__btn-box {
+        flex-direction: column;
+    }
+
+    .banner-content p,
+    .cta-two__text {
         font-size: 16px;
         line-height: 19.05px;
         padding-top: 0px;
@@ -772,6 +808,10 @@
         padding-top: 10px;
     }
 
+    .testimonial-img {
+        left: 35%;
+    }
+
     .hunberger {
         font-size: 25px;
         padding-top: 6px;
@@ -780,9 +820,11 @@
     .testimonialsCard {
         padding: 30px 30px 30px 40px;
     }
- .navbar::before {
+
+    .navbar::before {
         width: 140px;
     }
+
     .contactusImg img {
         height: 350px;
     }
@@ -794,8 +836,12 @@
 
     .ExpertAssistance {
         padding: 30px 0;
-    }
-
+    }.box4{
+    margin-top: 30px !important;
+}
+.blog-section-one{
+    padding: 30px 0;
+}
     .ExpertLeft2 {
         margin-top: 71px !important;
     }
@@ -824,6 +870,26 @@
         line-height: 15px;
     }
 
+    .bannerContent .titletext {
+        font-size: 32px;
+    }
+
+    .breadcrumbs-custom-path li a {
+        font-size: 18px;
+    }
+
+    .breadcrumbs-custom-path li {
+        font-size: 18px;
+    }
+
+    .aboutBanner {
+        height: 250px;
+    }
+ .testimonial-img {
+        left: 30%;
+    }.blog-image img {
+    height: 250px;
+}
     .search-option .title {
         font-size: 20px;
         line-height: 27px;
