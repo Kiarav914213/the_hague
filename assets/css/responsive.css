@@ -550,6 +550,9 @@
     .cta-two__btn-box {
         justify-content: center;
     }
+    .booknowsection {
+    padding: 120px 0  60px 0!important;
+}
 }
 
 @media (max-width:768px) {
@@ -853,6 +856,12 @@
     .banner-content {
         padding-right: 20px;
     }
+    .contact-form_one, .contact-one_info {
+    padding: 40px 0 0 0;
+}
+.map-one iframe{
+    margin-top: 50px;
+}
 }
 
 @media (max-width:480px) {
