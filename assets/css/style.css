@@ -776,8 +776,8 @@
 .description {
     font-family: Inter;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+    /* font-size: 14px;
+    line-height: 21px; */
     margin-bottom: 25px;
     color: #6E7070;
     max-width: 430px;
@@ -2398,7 +2398,7 @@
 }
 
 .contact-info_block h4 {
-        font-family: Moon Dance;
+    font-family: Moon Dance;
     font-weight: 900;
     font-size: 42px;
     line-height: 53px;
@@ -2441,9 +2441,11 @@
     position: relative;
 
 }
-.contact-form_one{
+
+.contact-form_one {
     position: relative;
 }
+
 .contact-form_one .contact-form::after {
     content: "";
     position: absolute;
@@ -2457,6 +2459,7 @@
     border-radius: 15px;
     z-index: -1;
 }
+
 .contact-form input,
 .contact-form textarea {
     width: 100%;
@@ -2516,176 +2519,425 @@
 }
 
 /* ===========================  book now ======================== */
- 
+
 
 .booknowsection-box {
-  background-color: #ffffff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
 
 .booknowsection-title {
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--brand-color);
-  position: relative;
-  padding-left: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--brand-color);
+    position: relative;
+    padding-left: 25px;
 }
 
 .booknowsection-title-line {
-  content: "";
-  width: 10px;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  border-left: 4px solid var(--brand-color);
+    content: "";
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-left: 4px solid var(--brand-color);
 }
 
 .booknowsection-img img {
-  border-radius: 12px;
-  max-width: 100%;
-  height: auto;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Form Elements */
 .booknowsection form .form-control,
 .booknowsection form .form-select,
 .booknowsection form textarea {
-  border-radius: 8px;
-  border: 1px solid var(--brand-color);
-  padding: 10px 40px 10px 12px;
-  font-size: 15px;
-  transition: border-color 0.3s;
-  position: relative;
-  color: var(--brand-color);
-  font-family: var(--primary-font);
-  font-weight: 500;
- 
-} .booknowsection{
-    padding: 60px 0 !important;
-  }
-.booknowsection .form-label,.booknowsection.form-check-label{
+    border-radius: 8px;
+    border: 1px solid var(--brand-color);
+    padding: 10px 40px 10px 12px;
+    font-size: 15px;
+    transition: border-color 0.3s;
     position: relative;
-  color: var(--brand-color);
-  font-family: var(--primary-font);
-  font-weight: 500;
+    color: var(--brand-color);
+    font-family: var(--primary-font);
+    font-weight: 500;
+
 }
+
+.booknowsection {
+    padding: 60px 0 !important;
+}
+
+.booknowsection .form-label,
+.booknowsection.form-check-label {
+    position: relative;
+    color: var(--brand-color);
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
 .booknowsection form .form-control:focus,
 .booknowsection form .form-select:focus,
 .booknowsection form textarea:focus {
-  border-color: var(--brand-color);
-  outline: none;
-  box-shadow: none;
+    border-color: var(--brand-color);
+    outline: none;
+    box-shadow: none;
 }
 
 /* Input Icons */
 .form-group {
-  position: relative;
+    position: relative;
 }
 
 .form-icon {
-  position: absolute;
-  right: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--brand-color);
-  pointer-events: none;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--brand-color);
+    pointer-events: none;
 }
 
 /* Radio Buttons Inline */
 .form-check-inline {
-  margin-right: 15px;
+    margin-right: 15px;
 }
 
 /* Button */
 .booknowsection .btn-warning {
-  background-color: var(--brand-color);
-  border: none;
-  padding: 10px 20px;
-  font-weight: 600;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  color: var(--white-color)  !important;
+    background-color: var(--brand-color);
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    color: var(--white-color) !important;
 }
+
 .booknowsection .btn-warning:hover {
-    background-color:#fff !important;
+    background-color: #fff !important;
     border: 1px solid var(--brand-color);
     color: var(--brand-color) !important;
 
 }
+
 .booknowsection .btn-warning:hover {
-  background-color: var(--brand-color);
-  color: #fff;
+    background-color: var(--brand-color);
+    color: #fff;
 }
 
 /* Responsive */
 @media (max-width: 767px) {
-  .booknowsection-title {
-    font-size: 20px;
-  }
+    .booknowsection-title {
+        font-size: 20px;
+    }
 }
 
 
 /* ========================= our feet===================== */
 
 .taxi-info-section {
-  background: #fefdfc;
-  padding: 60px 0;
+    background: #fefdfc;
+    padding-top: 80px;
+}
+
+.taxi-info-section img {
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+    /* Blue shadow */
+
 }
 
 .taxi-box {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.contfleet {
+    background-color: var(--brand-color);
+    padding: 65px 20px;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+    /* Blue shadow */
+    border-radius: 6px;
 }
 
 .taxi-info-section .title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #000;
-  margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: var();
 }
 
 .taxi-info-section .desc {
-  font-size: 16px;
-  color: #666;
-  margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 .taxi-feature-list {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 25px;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 25px;
 }
 
 .taxi-feature-list li {
-  font-size: 16px;
-  color: #333;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .taxi-feature-list i {
-  color: #ffc107; /* Yellow check icon */
-  font-size: 18px;
-  margin-right: 10px;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
 }
 
 .btn-yellow {
-  background-color: #fdd835;
-  color: #000;
-  font-weight: 700;
-  padding: 12px 28px;
-  display: inline-block;
-  border-radius: 4px;
-  text-decoration: none;
-  box-shadow: 3px 3px 0 #fbc02d;
-  transition: all 0.3s ease;
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    padding: 12px 28px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+    box-shadow: 3px 3px 0 #000;
+    transition: all 0.3s ease;
+}
+
+.ourfleett .description {
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 50px !important;
+}
+
+.fleetsect p {
+    max-width: 1000px !important;
+}
+
+.fleetsect p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fleetsect::after {
+    height: 350px !important;
+}
+
+.ourfleett h2 {
+    color: var(--brand-color) !important;
 }
 
 .btn-yellow:hover {
-  background-color: #e0b300;
-  color: #fff;
+    background-color: var(--brand-color);
+    color: #fff;
+}
+
+/* ======================= work areas ===================== */
+.area-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    transition: all 0.5s ease-in-out;
+    border-left: 5px solid var(--brand-color);
+}
+
+.area-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(13, 110, 253, 0.2);
+    background: var(--brand-color);
+    border-left: 5px solid #fff;
+
+}
+
+.area-card:hover h4,
+.area-card:hover li,
+.area-card:hover i {
+    color: #fff;
+}
+
+.area-card-section {
+    padding: 80px 0;
+    background-color: #E9F6F9;
+}
+
+.area-card h4 {
+    color: var(--brand-color);
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-family: Moon Dance;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.area-card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.area-card ul li {
+    font-size: 16px;
+    color: #6E7070;
+    margin-bottom: 10px;
+    display: flex;
+    transition: all 0.5s ease-in-out;
+
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease;
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+.area-card ul li i {
+    color: var(--brand-color);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.area-card:hover ul li i {
+    transform: scale(1.2);
+}
+
+tbody tr:hover {
+    background-color: var(--brand-color) !important;
+    /* Light blue */
+    cursor: pointer;
+}
+
+/* =========================== service page ========================= */
+.listservice ul {
+    list-style: none;
+    padding: 0;
+}
+
+.listservice li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--brand-color);
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.listservice li i {
+    color: #0d6efd;
+}
+
+.w-100 {
+    max-width: 90%;
+}
+
+.serviceimg {
+    height: 580px;
+    border: 5px solid var(--brand-color);
+}
+
+.pricing-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Base styling */
+.price-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 15px;
+    background: rgb(255, 255, 255) !important;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.6s ease-in-out;
+    border-radius: 25px 0px 25px 0px;
+    border-color: var(--brand-color);
+}
+
+/* Lift, scale, and glow */
+.price-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    background-color: #E9F6F9;
+}
+
+/* Optional Shine Sweep Animation */
+.price-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
+    transform: skewX(-25deg);
+    transition: none;
+    z-index: 2;
+}
+
+/* Trigger shine on hover */
+.price-card:hover::before {
+    animation: shine 1s ease-in-out forwards;
+}
+
+/* Shine keyframes */
+@keyframes shine {
+    0% {
+        left: -75%;
+    }
+
+    100% {
+        left: 125%;
+    }
+}
+
+.price-card h5 {
+    font-family: var(p);
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.price-card p {
+    font-family: var(--primary-font);
+    font-size: 18px;
+}
+
+/* ======================================== privacy-section ======================= */
+.privacy-section {
+    background-color: var(--brand-color);
+}
+
+.cardpricy {
+    font-family: var(--primary-font);
+    color: var(--brand-color);
+    text-transform: capitalize;
+
+}
+
+.cardpricy {
+    background-color: #E9F6F9;
+}
+
+.privacy-section ul {
+    padding-left: 20px;
+}
+
+.privacy-section li {
+    margin-bottom: 5px;
+}
+
+.privacy-section h4 {
+    font-weight: bold;
 }
