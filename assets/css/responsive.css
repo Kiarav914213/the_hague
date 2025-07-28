@@ -24,7 +24,9 @@
         padding-right: 0;
         padding-top: 67px;
     }
-
+.navbar-nav {
+    gap: 0;
+}
 }
 
 @media (max-width:1270px) {
@@ -34,7 +36,9 @@
 }
 
 @media (max-width:1199px) {
-
+.navbar-nav {
+    gap: 10px;
+}
     .offcanvas-body {
         max-width: 606px;
     }
